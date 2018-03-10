@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+    <script src="js/view.js"></script>
+</head>
+<body ng-app="indexView">
+<div>
+    <p>welcome</p>
+    <a ui-sref="register" ui-sref-active="active">view</a>
+        <ui-view></ui-view>
+</div>
+</body>
+</html>
